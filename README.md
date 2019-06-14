@@ -1,4 +1,4 @@
-# LUAD_project
+# Project LUAD
 
 ---
 ## 1.Epigenome - DNA methylation Analysis
