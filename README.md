@@ -28,9 +28,9 @@ We integrated Watson and Crick Strand CpG methylation Coverage from sample_dedup
 
 Then, by merging each sample methylation Coverage file into merged one (LUAD_methyl_all_Strand_integrated.txt), we generated M x N matrix where, M and N represents CpG sites in the hg19 genome and the number of samples (100, 50 normal 50 tumor) respectively.
 
-#### Figure 1. Caluclating DNA Methylation Percentage of 100bp tile
-![100bp_tile_generation](./IMAGE/100bp_tile_generation.PNG)
 
+![100bp_tile_generation](./IMAGE/100bp_tile_generation.PNG)
+##### Figure 1. Caluclating DNA Methylation Percentage of 100bp tile
 
 
 ## 2.Transcriptome - RNA-seq Analysis
