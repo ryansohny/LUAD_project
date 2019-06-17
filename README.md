@@ -30,7 +30,7 @@ Then, by merging each sample methylation Coverage file into merged one (LUAD_met
 
 
 ![100bp_tile_generation](./IMAGE/100bp_tile_generation.PNG)
-##### Figure 1. Caluclating DNA Methylation Percentage of 100bp tile
+                             ##### Figure 1. Caluclating DNA Methylation Percentage of 100bp tile
 
 
 Filtering off-target tiles, paired t-test and Benjamini-Hochberg correction of p value.
@@ -38,7 +38,7 @@ Filtering off-target tiles, paired t-test and Benjamini-Hochberg correction of p
 Annotation of DNA methylation tiles
 
 ![Anntation_of_DNA_methylation_matrix](./IMAGE/Anntation_of_DNA_methylation_matrix.PNG)
-##### Figure 2. Annotation of DNA methylation matrix
+                             ##### Figure 2. Annotation of DNA methylation matrix
 
 
 ## 2.Transcriptome - RNA-seq Analysis
