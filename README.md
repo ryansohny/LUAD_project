@@ -18,8 +18,9 @@ deduplicate_bismark sample.bam
 <Methylation Extraction>
 bismark_methylation_extractor -p --mbias_off --no_overlap --counts --bedGraph --no_header --cytosine_report sample.bam
 ```
-We then integrated Watson and Crick Strand CpG methylation info 
+We then integrated Watson and Crick Strand CpG methylation Coverage from sample_deduplicated.CpG_report.txt
 
+test [fdafdsfsdf]
 
 ## 2.Transcriptome - RNA-seq Analysis
 
