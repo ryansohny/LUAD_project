@@ -14,7 +14,7 @@ We ran Trimmomatic verision 0.33 to trim low quality bases and adapter contamina
 ```
 java -jar trimmomatic-0.33.jar PE -phred33 read1.fastq read2.fastq read1_paired.fastq read1_unpaired.fastq read2_paired.fastq read2_unpaired.fastq ILLUMINACLIP:TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
 ```
-### 1-2. Read Alignment, deduplication and extraction of DNA methylation
+### 1-2. Read Alignment, deduplication, extraction of DNA methylation, statistical testing (DMR identification) and annotation
 We performed read alignment onto hg19 reference genome, deduplication and DNA methylation calculation via using Bismark version 0.14.3
 ```
 <Alignment>
@@ -33,13 +33,19 @@ Then, by merging each sample methylation Coverage file into merged one (LUAD_met
 ##### Figure 1. Caluclating DNA Methylation Percentage of 100bp tile
 
 
-Filtering off-target tiles, paired t-test and Benjamini-Hochberg correction of p value.
+Filtering off-target tiles, paired t-test and Benjamini-Hochberg correction of p value, Differentially methylated region (DMR) identification.
 
 Annotation of DNA methylation tiles
 
 ![Anntation_of_DNA_methylation_matrix](./IMAGE/Anntation_of_DNA_methylation_matrix.PNG)
 ##### Figure 2. Annotation of DNA methylation matrix
 
+### 1-3. Analysis
+#### 1-3.1 
+
+#### 1-3.2
+
+#### 1-3.3 Transcription Factor binding site 
 
 ## 2.Transcriptome - RNA-seq Analysis
 
